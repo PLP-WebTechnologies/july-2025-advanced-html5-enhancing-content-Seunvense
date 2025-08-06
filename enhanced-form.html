@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML5 Content and Form</title>
+  </head>
+  <body>
+    <section>
+      <h1> Welcome to My Portfolio</h1>
+      <h2> My Skills</h2>
+       <ul>
+         <li>HTML5: Building structured webpages</li>
+         <li>CSS: Styling for visual appeal</li>
+         <li>Python: Data analysis and scripting</li>
+       </ul>
+      <h2>Steps to Learn Coding</h2>
+       <ol>
+         <li>Understand basic HTML structure</li>
+         <li>Practice CSS for design</li>
+         <li>Learn Python for logic</li>
+       </ol>
+    </section>
+    <section>
+      <h2>My Projects</h2>
+       <table border="1">
+         <thead>
+           <tr>
+             <th>Project Name</th>
+             <th>Description</th>
+             <th>Status</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td>Portfolio Site</td>
+             <td>Personal website showcasing skills</td>
+             <td>Completed</td>
+            <tr>
+              <tr>
+               <td>Data Dashboard</td>
+               <td>Python-based data visualization</td>
+               <td>In Progress</td>
+            </tr>
+         </tbody>
+       </table>
+    </section>
+    <section>
+       <img src="" alt="">
+    </section>
+     <h2>Media Showcase</h2>
+     <img src="C:\Users\Hp\Desktop\TUT\PLP Task\july-2025-advanced-html5\img.jpeg" alt="Boy coding with laptop" width="300" height="200">
+     <audio controls>
+       <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+       Your browser does not support the audio element.
+     </audio>
+     <section>
+       <h2>Contact Me</h2>
+        <form>
+           <fieldset>
+             <legend>Personal Information</legend>
+             <label for="name">Full Name:</label>
+             <input type="text" id="name" name="name" placeholder="Enter your full name" required minlength="2">
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+             <label for="phone">Phone Number:</label>
+             <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+           </fieldset>
+           <fieldset>
+             <legend>Message Details</legend>
+             <label for="subject">Subject:</label>
+             <input type="text" id="subject" name="subject" placeholder="Message subject" required>
+             <label for="message">Message:</label>
+             <textarea id="message" name="message" placeholder="Type your messsage here" rows="4" required minlength="10"></textarea>
+             <label for="priority">Priority:</label>
+             <select name="priority" id="priority">
+                <option value="">Select priority</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+             </select>
+             <label for="newsletter">Subscribe to newsletter:</label>
+             <input type="checkbox" id="newsletter" name="newsletter">
+             <label for="date">Preferred Contact Date:</label>
+             <input type="date" id="date" name="date" required>
+           </fieldset>
+           <input type="submit" value="Send Message">
+        </form>
+     </section>
+  </body>
+</html>
